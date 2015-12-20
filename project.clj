@@ -6,6 +6,13 @@
                  [compojure "1.4.0"]
                  [ring/ring-defaults "0.1.5"]
                  [ring/ring-jetty-adapter "1.4.0"]
+                 
+                 [prismatic/schema "0.4.4"]
+                 [com.cemerick/friend "0.2.1"]
+                 [clj-jwt "0.1.0"]
+
+                 [org.clojure/tools.cli "0.3.3"]
+                 [org.clojure/data.json "0.2.6"]
 
                  [http-kit "2.1.19"]
                  [environ "1.0.1"]
@@ -16,7 +23,9 @@
                  [ring-middleware-format "0.7.0" :exclusions [ring]]]
   :plugins [[lein-ring "0.9.7"]
             [environ/environ.lein "0.3.1"]]
-  :ring {:handler h4ck3r.handler/app}
+  :ring {:handler h4ck3r.handler/app
+         :auto-reload? true
+         :auto-refresh? true}
   :uberjar-name "h4ck3r-standalone.jar"
   :hooks [environ.leiningen.hooks]
   :profiles

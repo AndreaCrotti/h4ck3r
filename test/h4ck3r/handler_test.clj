@@ -1,9 +1,12 @@
 (ns h4ck3r.handler-test
   (:require [clojure.test :refer :all]
             [ring.mock.request :as mock]
+            [clojure.data.json :as json]
             [h4ck3r.handler :refer :all]))
 
-(def desired {:shortened "He wo", :mapping {"Hello" "He", "world" "wo"}})
+(def desired
+  (json/write-str {:mapping {"Hello" "He", "world" "wo"}
+                   :shortened "He wo"}))
 
 (deftest test-app
   (testing "translator"
