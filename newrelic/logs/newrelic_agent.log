@@ -1,0 +1,246 @@
+Dec 20, 2015 17:02:45 +0000 [27800 1] com.newrelic INFO: Writing to New Relic log file: /home/andrea/projects/personal_projects/h4ck3r/newrelic/logs/newrelic_agent.log
+Dec 20, 2015 17:02:45 +0000 [27800 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_66
+Dec 20, 2015 17:02:45 +0000 [27800 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 25.66-b17
+Dec 20, 2015 17:02:45 +0000 [27800 1] com.newrelic INFO: OS Linux version 4.2.5-1-ARCH arch amd64
+Dec 20, 2015 17:02:45 +0000 [27800 1] com.newrelic INFO: Agent Host: latitude IP: 192.168.0.3
+Dec 20, 2015 17:02:45 +0000 [27800 1] com.newrelic INFO: New Relic Agent v3.24.0 is initializing...
+Dec 20, 2015 17:02:46 +0000 [27800 1] com.newrelic.agent.deps.org.reflections.Reflections WARN: given scan urls are empty. set urls in the configuration
+Dec 20, 2015 17:02:47 +0000 [27800 1] com.newrelic.agent.deps.org.reflections.Reflections INFO: Reflections collected metadata from input stream using serializer com.newrelic.agent.deps.org.reflections.serializers.JsonSerializer
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.0-M1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.15 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jboss-7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-environment-8.5.5.5 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-8 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-1.3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-3.5.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-CAT is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-3.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-1.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.0.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.6.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-aop-2 is disabled. Skipping.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-http-1.3.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7.6 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jms-1.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.8 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-8.5.5.5 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-1.3.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-1.4.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-10 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-java-sdk-1.3.30 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.0.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.thrift-0.8 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-2.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.8 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.12 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cxf-2.7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.scala-2.9.3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-ws-2.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-2.7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-jmx-7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-jms-2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.javax.xml is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-dispatcher-8.5.5.5 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-servlet-9 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-2.1.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.1 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpurlconnection is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ejb-3.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-datastore-1.0.0 is disabled. Skipping.
+Dec 20, 2015 17:02:47 +0000 [27800 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.5 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.2 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-PORT is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.glassfish-3 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-1.0.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-4.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jsp-2.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-async-2.3 is disabled. Skipping.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-6 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-1.0 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-7 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-2.4 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-5.5 is enabled. Loading.
+Dec 20, 2015 17:02:47 +0000 [27800 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-user is disabled. Skipping.
+Dec 20, 2015 17:02:51 +0000 [27800 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Dec 20, 2015 17:02:51 +0000 [27800 1] com.newrelic INFO: Setting audit_mode to false
+Dec 20, 2015 17:02:51 +0000 [27800 1] com.newrelic INFO: Setting protocol to "https"
+Dec 20, 2015 17:02:55 +0000 [27800 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/andrea/projects/personal_projects/h4ck3r/newrelic/./newrelic.yml
+Dec 20, 2015 17:02:55 +0000 [27800 1] com.newrelic INFO: New Relic Agent v3.24.0 has started
+Dec 20, 2015 17:02:55 +0000 [27800 1] com.newrelic INFO: Agent class loader: sun.misc.Launcher$AppClassLoader@14dad5dc
+Dec 20, 2015 17:02:55 +0000 [27800 1] com.newrelic INFO: Premain startup complete in 10,391ms
+Dec 20, 2015 17:03:20 +0000 [27800 26] com.newrelic INFO: Display host name is latitude for application My Application
+Dec 20, 2015 17:03:23 +0000 [27800 26] com.newrelic INFO: Collector redirection to collector-136.newrelic.com:443
+Dec 20, 2015 17:03:23 +0000 [27800 26] com.newrelic INFO: Agent run id: 59548768273238398
+Dec 20, 2015 17:03:23 +0000 [27800 26] com.newrelic INFO: Agent 27800@latitude/My Application connected to collector.newrelic.com:443
+Dec 20, 2015 17:03:23 +0000 [27800 26] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1188698/applications/13864776
+Dec 20, 2015 17:03:23 +0000 [27800 26] com.newrelic INFO: Using RUM version 768 for application "My Application"
+Dec 20, 2015 17:03:23 +0000 [27800 26] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "My Application"
+Dec 20, 2015 17:04:54 +0000 [27800 41] com.newrelic ERROR: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: ***Restart agent on stale config (account) launch=2015-12-20 17:03:23 config=2015-12-20 17:03:26. The agent will attempt to reconnect for data reporting. If this message continues, please contact support.
+Dec 20, 2015 17:04:54 +0000 [27800 41] com.newrelic INFO: Display host name is latitude for application My Application
+Dec 20, 2015 17:04:55 +0000 [27800 41] com.newrelic INFO: Collector redirection to collector-136.newrelic.com:443
+Dec 20, 2015 17:04:55 +0000 [27800 41] com.newrelic INFO: Agent run id: 59548768273243027
+Dec 20, 2015 17:04:55 +0000 [27800 41] com.newrelic INFO: Agent 27800@latitude/My Application connected to collector.newrelic.com:443
+Dec 20, 2015 17:04:55 +0000 [27800 41] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1188698/applications/13864776
+Dec 20, 2015 17:04:55 +0000 [27800 41] com.newrelic INFO: Using RUM version 768 for application "My Application"
+Dec 20, 2015 17:04:55 +0000 [27800 41] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "My Application"
+Dec 20, 2015 17:05:55 +0000 [27800 41] com.newrelic INFO: Re-reading New Relic configuration file
+Dec 20, 2015 17:08:54 +0000 [27800 41] com.newrelic INFO: Re-reading New Relic configuration file
+Dec 20, 2015 17:09:18 +0000 [27800 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Dec 20, 2015 17:09:18 +0000 [27800 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Dec 20, 2015 17:09:55 +0000 [28923 1] com.newrelic INFO: Writing to New Relic log file: /home/andrea/projects/personal_projects/h4ck3r/newrelic/logs/newrelic_agent.log
+Dec 20, 2015 17:09:55 +0000 [28923 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_66
+Dec 20, 2015 17:09:55 +0000 [28923 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 25.66-b17
+Dec 20, 2015 17:09:55 +0000 [28923 1] com.newrelic INFO: OS Linux version 4.2.5-1-ARCH arch amd64
+Dec 20, 2015 17:09:55 +0000 [28923 1] com.newrelic INFO: Agent Host: latitude IP: 192.168.0.3
+Dec 20, 2015 17:09:55 +0000 [28923 1] com.newrelic INFO: New Relic Agent v3.24.0 is initializing...
+Dec 20, 2015 17:09:56 +0000 [28923 1] com.newrelic.agent.deps.org.reflections.Reflections WARN: given scan urls are empty. set urls in the configuration
+Dec 20, 2015 17:09:56 +0000 [28923 1] com.newrelic.agent.deps.org.reflections.Reflections INFO: Reflections collected metadata from input stream using serializer com.newrelic.agent.deps.org.reflections.serializers.JsonSerializer
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jboss-7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.0-M1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.15 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-CAT is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-8 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.0.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-aop-2 is disabled. Skipping.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-1.3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-environment-8.5.5.5 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-8.5.5.5 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-1.4.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jms-1.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.thrift-0.8 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-3.5.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-1.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7.6 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.8 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-1.3.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ejb-3.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.6.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-10 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.scala-2.9.3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-http-1.3.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-3.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-dispatcher-8.5.5.5 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-java-sdk-1.3.30 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.8 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.javax.xml is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-PORT is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-servlet-9 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-2.7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.0.2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-2.2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.12 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpurlconnection is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-4.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-jms-2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-1.0.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jsp-2.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-2.1.2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cxf-2.7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-2 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.1 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-async-2.3 is disabled. Skipping.
+Dec 20, 2015 17:09:56 +0000 [28923 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.glassfish-3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-6 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-ws-2.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-1.0 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-jmx-7 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-2.4 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-datastore-1.0.0 is disabled. Skipping.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.3 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-5.5 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.5 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-user is disabled. Skipping.
+Dec 20, 2015 17:09:56 +0000 [28923 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12 is enabled. Loading.
+Dec 20, 2015 17:09:56 +0000 [28923 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.2 is enabled. Loading.
+Dec 20, 2015 17:10:00 +0000 [28923 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Dec 20, 2015 17:10:00 +0000 [28923 1] com.newrelic INFO: Setting audit_mode to false
+Dec 20, 2015 17:10:00 +0000 [28923 1] com.newrelic INFO: Setting protocol to "https"
+Dec 20, 2015 17:10:02 +0000 [28923 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/andrea/projects/personal_projects/h4ck3r/newrelic/./newrelic.yml
+Dec 20, 2015 17:10:02 +0000 [28923 1] com.newrelic INFO: New Relic Agent v3.24.0 has started
+Dec 20, 2015 17:10:02 +0000 [28923 1] com.newrelic INFO: Agent class loader: sun.misc.Launcher$AppClassLoader@14dad5dc
+Dec 20, 2015 17:10:02 +0000 [28923 1] com.newrelic INFO: Premain startup complete in 8,170ms
+Dec 20, 2015 17:10:17 +0000 [28923 26] com.newrelic INFO: Display host name is latitude for application H4ck3r
+Dec 20, 2015 17:10:18 +0000 [28923 26] com.newrelic INFO: Collector redirection to collector-136.newrelic.com:443
+Dec 20, 2015 17:10:19 +0000 [28923 26] com.newrelic INFO: Agent run id: 59549180590121261
+Dec 20, 2015 17:10:19 +0000 [28923 26] com.newrelic INFO: Agent 28923@latitude/H4ck3r connected to collector.newrelic.com:443
+Dec 20, 2015 17:10:19 +0000 [28923 26] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1188698/applications/13864873
+Dec 20, 2015 17:10:19 +0000 [28923 26] com.newrelic INFO: Using RUM version 768 for application "H4ck3r"
+Dec 20, 2015 17:10:19 +0000 [28923 26] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "H4ck3r"
