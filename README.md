@@ -1,5 +1,7 @@
 # h4ck3r
 
+[![Build Status](https://travis-ci.org/AndreaCrotti/h4ck3r.png)](https://travis-ci.org/AndreaCrotti/h4ck3r)
+
 Encode strings in shorter but still readable sentences, send funny
 coded messages or tweets.
 
