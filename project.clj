@@ -7,15 +7,16 @@
                  [ring/ring-defaults "0.1.5"]
                  [ring/ring-jetty-adapter "1.4.0"]
                  
-                 [prismatic/schema "0.4.4"]
+                 [prismatic/schema "1.0.4"]
                  [com.cemerick/friend "0.2.1"]
-                 [clj-jwt "0.1.0"]
+                 [clj-jwt "0.1.1"]
 
                  [org.clojure/tools.cli "0.3.3"]
                  [org.clojure/data.json "0.2.6"]
 
                  [http-kit "2.1.19"]
                  [environ "1.0.1"]
+                 [metosin/scjsv "0.2.0"]
                  [metosin/ring-swagger "0.22.1"]
                  [metosin/ring-swagger-ui "2.1.8-M1"]
                  [metosin/ring-http-response "0.6.5"]

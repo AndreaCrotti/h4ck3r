@@ -3,7 +3,34 @@
             [compojure.route :as route]
             [clojure.data.json :as json]
             [ring.middleware.defaults :refer [wrap-defaults api-defaults]]
+            [ring.swagger.swagger2 :as rs]
+            [schema.core :as s]
             [h4ck3r.core :refer [convert]]))
+
+;;TODO: use this for validation
+(s/defschema Query {:message s/Str
+                    })
+
+#_(s/with-fn-validation 
+  (rs/swagger-json 
+    {:info {:version "1.0.0"
+            :title "Message"
+            :description "Message to enter"
+            :termsOfService "http://helloreverb.com/terms/"
+            :contact {:name "H4ck3r"
+                      :email "andrea.crotti.0@gmail.com"
+                      :url "https://github.com/AndreaCrotti/h4ck3r"}
+            :license {:name "Eclipse Public License"
+                      :url "http://www.eclipse.org/legal/epl-v10.html"}}
+     :tags [{:name "user"
+             :description "User stuff"}]
+     :paths {"/translate/" {:post {:summary "Translation API"
+                                   :description "Translate"
+                                   :tags ["text"]
+                                   :parameters {:body Query}
+                                   :responses {201 {:schema Query
+                                                    :description "Found it!"}}}}}}))
+
 
 (defn translate [params]
   "Translate string returning content"
