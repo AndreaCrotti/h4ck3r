@@ -5,8 +5,10 @@
             [h4ck3r.core :refer [convert]]))
 
 (defn translate [params]
-  {:status 200
-   :content (:shortened (convert (:message params) :trim))})
+  "Translate string returning content"
+  (let [res (convert (:message params) :trim)]
+    {:status 200
+     :body res}))
 
 (defroutes app-routes
   (POST "/translate" params (translate (:params params)))
