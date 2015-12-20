@@ -4,10 +4,10 @@
             [h4ck3r.handler :refer :all]))
 
 (deftest test-app
-  (testing "main route"
-    (let [response (app (mock/request :get "/"))]
+  (testing "translator"
+    (let [response (app (mock/request :post "/translate" {:message "Hello world"}))]
       (is (= (:status response) 200))
-      (is (= (:body response) "Hello World"))))
+      (is (= (:content response) "He wo"))))
 
   (testing "not-found route"
     (let [response (app (mock/request :get "/invalid"))]
