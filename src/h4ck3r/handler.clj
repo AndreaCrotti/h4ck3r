@@ -2,9 +2,12 @@
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
             [clojure.data.json :as json]
+            [ring.middleware.json :refer [wrap-json-params]]
             [ring.middleware.defaults :refer [wrap-defaults api-defaults]]
+            [ring.util.response :as resp]
             [ring.swagger.swagger2 :as rs]
             [schema.core :as s]
+            [selmer.parser :as selmer]
             [h4ck3r.core :refer [convert]]))
 
 ;;TODO: use this for validation
