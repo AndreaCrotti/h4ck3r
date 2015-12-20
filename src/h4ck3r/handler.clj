@@ -6,7 +6,7 @@
 
 (defn translate [params]
   {:status 200
-   :content (:shortened (convert (:message params)))})
+   :content (:shortened (convert (:message params) :trim))})
 
 (defroutes app-routes
   (POST "/translate" params (translate (:params params)))
