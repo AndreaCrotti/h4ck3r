@@ -43,8 +43,14 @@
      :body (json/write-str res)}))
 
 (defroutes app-routes
-  (GET "/" [] "Welcome to the H4ck3r project")
-  (POST "/translate" params (translate (:params params)))
+  (GET "/" [] (resp/redirect "/translate"))
+  (GET "/translate" [] (selmer/render-file "index.html" {}))
+  (POST "/translate" params
+        (let [response (translate (:params params))
+              parsed (json/read-str (:body response))]
+          (println "keys are equal to" (keys parsed))
+          (println "res equal to " (:shortened parsed))
+          (selmer/render-file "index.html" {:result (get "shortened" (:body response))})))
   (route/not-found "Not Found"))
 
 (def app
