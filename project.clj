@@ -9,6 +9,7 @@
 
                  ;; [de.ubercode.clostache/clostache "1.4.0"]
                  [selmer "0.9.6"]
+                 [funcool/cuerdas "0.7.0"]
 
                  [prismatic/schema "1.0.4"]
                  [com.cemerick/friend "0.2.1"]
